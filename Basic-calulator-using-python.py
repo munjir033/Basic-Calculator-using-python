@@ -6,6 +6,7 @@
 from math import sqrt, factorial, log10
 
  # here I defined some one line  functions                 
+
 add = lambda X, Y: ('%.4f' % (X+Y))
 sub = lambda X, Y:('%.4f' % (X-Y))
 mul = lambda X, Y: ('%.4f' % (X*Y))
@@ -17,11 +18,17 @@ log = lambda X: ('%.4f' %(log10(X)))
     
 print('    ======< CALCULATOR >=====')    
 print('\nHey,what would you like to perform?')             
+
+#you can perform this actions
 print('0.Turn Off',
-            '\n1.Sumation','\n2.Subtraction',  
-            '\n3.Multiplication','\n4.Division',
-            '\n5.Power','\n6.Squar Root',
-            '\n7.Factorial','\n8.Log (Base 10)')
+            '\n1.Sumation',
+            '\n2.Subtraction',  
+            '\n3.Multiplication',
+            '\n4.Division',
+            '\n5.Power',
+            '\n6.Squar Root',
+            '\n7.Factorial',
+            '\n8.Log (Base 10)')
 
 while True:
     A = input("\nEnter just the number of your choosen action: ")
@@ -31,7 +38,7 @@ while True:
         print('\nThis is NOT a number!')
         continue 
     if A == 0:
-         print('\nTurned Off.\nTHANKS FROM Third bit')
+         print('\nTurned Off.\nTHANKS FROM Munjir')
          break
    
     while A>0 and A<9:     
@@ -52,7 +59,8 @@ while True:
             continue 
         break 
 
-                     #here starts the main part...
+            #here starts the main part...
+ 
     if A == 1:
         print('\nSumation is: ',add(X,Y))
     elif A == 2:
@@ -82,5 +90,5 @@ while True:
         print('\nOut of the given options!')
         continue 
         
-#THANKS FROM Third Bit
+#THANKS FROM Munjir!
  
